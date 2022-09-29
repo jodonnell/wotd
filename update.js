@@ -23,7 +23,7 @@ const getWordApiCached = async (word) => {
 
 
 const writeResults = async (results) => {
-  await fs.promises.writeFile('./words.json', JSON.stringify(results))
+  await fs.promises.writeFile('./words.json', JSON.stringify(results, null, 2))
 }
 
 const getWordData = async (word) => {
