@@ -100,17 +100,21 @@
          }
 
          function loadRandomWord() {
-             shuffleArray(words)
-             const word = words[0]
-             console.log(word)
+             if (words.length === 0) {
+                 words = [...allWords]
+                 shuffleArray(words)
+             }
+             const word = words.pop()
              document.getElementById('word').innerText = word.name
              document.getElementById('definitions').innerHTML = word.def.join('<br/>')
          }
 
-         var words
+         let words, allWords
          async function load() {
              const response = await fetch("./words.json")
-             words = await response.json()
+             allWords = await response.json()
+             words = [...allWords]
+             shuffleArray(words)
              loadRandomWord()
          }
          load()
