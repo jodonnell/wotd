@@ -8,7 +8,7 @@
          .card-holder {
              display: flex;
              justify-content: center;
-             margin-top: 10vh;
+             margin-top: 5vh;
          }
          .card {
              user-select: none;
@@ -34,9 +34,16 @@
              font-size: 40px;
              visibility: hidden;
          }
+
+         #correctPercentageHolder {
+             font-size: 40px;
+             text-align: right;
+         }
         </style>
 
         <script>
+         let totalQuestions = 0
+         let totalRight = 0
 
          function shuffleArray(array) {
              for (let i = array.length - 1; i > 0; i--) {
@@ -53,11 +60,33 @@
              return document.getElementById('definitions').style.visibility === 'inherit'
          }
 
+         function updateCorrectPercent() {
+             const percent = totalRight / totalQuestions
+             document.getElementById('correctPercentage').innerText = Math.round(percent * 100)
+         }
+
+         function right() {
+             totalRight++
+             totalQuestions++
+         }
+         function wrong() {
+             totalQuestions++
+         }
+
+         function rightOrWrong(clickPosX) {
+             if (clickPosX > (window.innerWidth / 2))
+                 right()
+             else
+                 wrong()
+             updateCorrectPercent()
+         }
+
          function onCardClick(e) {
              e.stopPropagation()
-             if (isRevealed())
+             if (isRevealed()) {
                  next()
-             else
+                 rightOrWrong(e.pageX)
+             } else
                  reveal()
          }
 
@@ -88,6 +117,8 @@
         </script>
     </head>
     <body>
+        <div id="correctPercentageHolder"><span id="correctPercentage">0</span>%</div>
+
         <div class="card-holder" onclick="next()">
             <div class="card" onclick="onCardClick(event)">
                 <div class="word" id="word">
