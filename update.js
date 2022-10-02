@@ -34,7 +34,7 @@ const getWordData = async (word) => {
 }
 
 const removeEasyWords = (words) => {
-  const toRemove = ['shard', 'obliterate', 'ritzy', 'hearstring', 'glitch']
+  const toRemove = ['shard', 'obliterate', 'ritzy', 'hearstring', 'glitch', 'defer', 'trivial', 'rancid', 'sensibility', 'wreak', 'demeanor', 'substantive', 'caucus', 'frolic', 'rash', 'charisma', 'jaunty', 'grandiose', 'heartstring', 'overwhelm', 'riposte', 'haywire', 'broadside', 'kerfuffle', 'emblazon', 'critique', 'brandish', 'brouhaha', 'Luddite']
   return words.filter((word) => {
     return !toRemove.includes(word.name)
   })
@@ -65,7 +65,10 @@ const get = async () => {
   const wordsWithDefinitions = await Promise.all(words.map(async (word) => await getWordData(word)))
   const results = wordsWithDefinitions.map(p => ({ def: p[0].shortdef, name: p[0].name, date: p[0].date } ))
 
-  await writeResults(removeEasyWords(results))
+  console.log(results.length)
+  const finalWords = removeEasyWords(results)
+  console.log(finalWords.length)
+  await writeResults(finalWords)
 }
 
 get()

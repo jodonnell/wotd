@@ -1,22 +1,6 @@
 [
   {
     "def": [
-      "an act of criticizing; especially : a critical estimate or discussion"
-    ],
-    "name": "critique",
-    "date": "2022-10-01T04:00:00.000Z"
-  },
-  {
-    "def": [
-      "to inscribe or adorn with or as if with heraldic bearings or devices",
-      "to inscribe (something, such as heraldic bearings) on a surface",
-      "celebrate, extol"
-    ],
-    "name": "emblazon",
-    "date": "2022-10-02T04:00:00.000Z"
-  },
-  {
-    "def": [
       "a feeling of pique or resentment at some often fancied slight or insult",
       "shady branches : foliage",
       "shade, shadow"
@@ -26,26 +10,11 @@
   },
   {
     "def": [
-      "characterized by affectation of grandeur or splendor or by absurd exaggeration",
-      "impressive because of uncommon largeness, scope, effect, or grandeur"
-    ],
-    "name": "grandiose",
-    "date": "2022-09-02T04:00:00.000Z"
-  },
-  {
-    "def": [
       "to command solemnly under or as if under oath or penalty of a curse",
       "to urge or advise earnestly"
     ],
     "name": "adjure",
     "date": "2022-09-03T04:00:00.000Z"
-  },
-  {
-    "def": [
-      "behavior toward others : outward manner"
-    ],
-    "name": "demeanor",
-    "date": "2022-09-04T04:00:00.000Z"
   },
   {
     "def": [
@@ -89,15 +58,6 @@
   },
   {
     "def": [
-      "having substance : involving matters of major or practical importance to all concerned",
-      "considerable in amount or numbers : substantial",
-      "real rather than apparent : firm; also : permanent, enduring"
-    ],
-    "name": "substantive",
-    "date": "2022-09-11T04:00:00.000Z"
-  },
-  {
-    "def": [
       "insulting or abusive language : vituperation",
       "an abusive expression or speech"
     ],
@@ -111,23 +71,6 @@
     ],
     "name": "titivate",
     "date": "2022-09-13T04:00:00.000Z"
-  },
-  {
-    "def": [
-      "a sizable sheet of paper printed on one side",
-      "a sheet printed on one or both sides and folded",
-      "something (such as a ballad) printed on a broadside"
-    ],
-    "name": "broadside",
-    "date": "2022-09-14T04:00:00.000Z"
-  },
-  {
-    "def": [
-      "having an unpleasant smell or taste usually from chemical change or decomposition",
-      "distinctly unpleasant or distasteful : offensive"
-    ],
-    "name": "rancid",
-    "date": "2022-09-15T04:00:00.000Z"
   },
   {
     "def": [
@@ -156,14 +99,6 @@
   },
   {
     "def": [
-      "being out of order or having gone wrong",
-      "emotionally or mentally upset or out of control : crazy"
-    ],
-    "name": "haywire",
-    "date": "2022-09-19T04:00:00.000Z"
-  },
-  {
-    "def": [
       "a green or greenish-blue poisonous pigment resulting from the action of acetic acid on copper and consisting of one or more basic copper acetates",
       "normal copper acetate Cu(C2H3O2)2·H2O",
       "a green or bluish deposit especially of copper carbonates formed on copper, brass, or bronze surfaces"
@@ -177,14 +112,6 @@
     ],
     "name": "perspicacious",
     "date": "2022-09-21T04:00:00.000Z"
-  },
-  {
-    "def": [
-      "put off, delay",
-      "to postpone induction of (a person) into military service"
-    ],
-    "name": "defer",
-    "date": "2022-09-22T04:00:00.000Z"
   },
   {
     "def": [
@@ -205,13 +132,6 @@
   },
   {
     "def": [
-      "a closed meeting of a group of persons belonging to the same political party or faction usually to select candidates or to decide on policy; also : a group of people united to promote an agreed-upon cause"
-    ],
-    "name": "caucus",
-    "date": "2022-09-25T04:00:00.000Z"
-  },
-  {
-    "def": [
       "occurring occasionally, singly, or in irregular or random instances"
     ],
     "name": "sporadic",
@@ -227,26 +147,12 @@
   },
   {
     "def": [
-      "a disturbance or commotion typically caused by a dispute or conflict"
-    ],
-    "name": "kerfuffle",
-    "date": "2022-09-28T04:00:00.000Z"
-  },
-  {
-    "def": [
       "to induce someone to convert to one's faith",
       "to recruit someone to join one's party, institution, or cause",
       "to recruit or convert especially to a new faith, institution, or cause"
     ],
     "name": "proselytize",
     "date": "2022-09-30T04:00:00.000Z"
-  },
-  {
-    "def": [
-      "full of fun : merry"
-    ],
-    "name": "frolic",
-    "date": "2022-08-01T04:00:00.000Z"
   },
   {
     "def": [
@@ -276,14 +182,6 @@
   },
   {
     "def": [
-      "a nerve once believed to sustain the heart",
-      "the deepest emotions or affections —usually used in plural"
-    ],
-    "name": "heartstring",
-    "date": "2022-08-05T04:00:00.000Z"
-  },
-  {
-    "def": [
       "to make an official decision about who is right in (a dispute) : to settle judicially",
       "to act as judge"
     ],
@@ -304,24 +202,6 @@
     ],
     "name": "crepuscular",
     "date": "2022-08-08T04:00:00.000Z"
-  },
-  {
-    "def": [
-      "a fencer's quick return thrust following a parry",
-      "a retaliatory verbal sally : retort",
-      "a retaliatory maneuver or measure"
-    ],
-    "name": "riposte",
-    "date": "2022-08-09T04:00:00.000Z"
-  },
-  {
-    "def": [
-      "of little worth or importance",
-      "relating to or being the mathematically simplest case; specifically : characterized by having all variables equal to zero",
-      "commonplace, ordinary"
-    ],
-    "name": "trivial",
-    "date": "2022-08-10T04:00:00.000Z"
   },
   {
     "def": [
@@ -366,27 +246,10 @@
   },
   {
     "def": [
-      "bring about, cause",
-      "to cause the infliction of (vengeance or punishment)",
-      "avenge"
-    ],
-    "name": "wreak",
-    "date": "2022-08-17T04:00:00.000Z"
-  },
-  {
-    "def": [
       "not capable of or susceptible to change"
     ],
     "name": "immutable",
     "date": "2022-08-18T04:00:00.000Z"
-  },
-  {
-    "def": [
-      "a personal magic of leadership arousing special popular loyalty or enthusiasm for a public figure (such as a political leader)",
-      "a special magnetic charm or appeal"
-    ],
-    "name": "charisma",
-    "date": "2022-08-19T04:00:00.000Z"
   },
   {
     "def": [
@@ -406,14 +269,6 @@
   },
   {
     "def": [
-      "an eruption on the body",
-      "a large number of instances in a short period"
-    ],
-    "name": "rash",
-    "date": "2022-08-22T04:00:00.000Z"
-  },
-  {
-    "def": [
       "to abolish by authoritative action : annul",
       "to treat as nonexistent : to fail to do what is required by (something, such as a responsibility)",
       "to suppress or prevent (a biological function or process and especially an immune response)"
@@ -423,28 +278,10 @@
   },
   {
     "def": [
-      "upset, overthrow",
-      "to cover over completely : submerge",
-      "to overcome by superior force or numbers"
-    ],
-    "name": "overwhelm",
-    "date": "2022-08-25T04:00:00.000Z"
-  },
-  {
-    "def": [
       "marked by or given to vehement insistent outcry"
     ],
     "name": "vociferous",
     "date": "2022-08-26T04:00:00.000Z"
-  },
-  {
-    "def": [
-      "ability to receive sensations : sensitiveness",
-      "peculiar susceptibility to a pleasurable or painful impression (as from praise or a slight) —often used in plural",
-      "awareness of and responsiveness toward something (such as emotion in another)"
-    ],
-    "name": "sensibility",
-    "date": "2022-08-27T04:00:00.000Z"
   },
   {
     "def": [
@@ -457,34 +294,10 @@
   },
   {
     "def": [
-      "sprightly in manner or appearance : lively",
-      "stylish",
-      "genteel"
-    ],
-    "name": "jaunty",
-    "date": "2022-08-29T04:00:00.000Z"
-  },
-  {
-    "def": [
       "radiant splendor : brilliance"
     ],
     "name": "effulgence",
     "date": "2022-08-30T04:00:00.000Z"
-  },
-  {
-    "def": [
-      "to shake or wave (something, such as a weapon) menacingly",
-      "to exhibit in an ostentatious or aggressive manner"
-    ],
-    "name": "brandish",
-    "date": "2022-08-31T04:00:00.000Z"
-  },
-  {
-    "def": [
-      "one of a group of early 19th century English workmen destroying laborsaving machinery as a protest; broadly : one who is opposed to especially technological change"
-    ],
-    "name": "Luddite",
-    "date": "2022-07-26T04:00:00.000Z"
   },
   {
     "def": [
@@ -499,13 +312,6 @@
     ],
     "name": "ostentatious",
     "date": "2022-07-28T04:00:00.000Z"
-  },
-  {
-    "def": [
-      "hubbub, uproar"
-    ],
-    "name": "brouhaha",
-    "date": "2022-07-29T04:00:00.000Z"
   },
   {
     "def": [
