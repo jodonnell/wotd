@@ -33,6 +33,13 @@ const getWordData = async (word) => {
   return results
 }
 
+const removeEasyWords = (words) => {
+  const toRemove = ['shard', 'obliterate', 'ritzy', 'hearstring', 'glitch']
+  return words.filter((word) => {
+    return !toRemove.includes(word.name)
+  })
+}
+
 const get = async () => {
   const response = await fetch('https://www.merriam-webster.com/word-of-the-day/calendar')
   const text = await response.text()
@@ -58,7 +65,7 @@ const get = async () => {
   const wordsWithDefinitions = await Promise.all(words.map(async (word) => await getWordData(word)))
   const results = wordsWithDefinitions.map(p => ({ def: p[0].shortdef, name: p[0].name, date: p[0].date } ))
 
-  await writeResults(results)
+  await writeResults(removeEasyWords(results))
 }
 
 get()

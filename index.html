@@ -8,7 +8,6 @@
          .card-holder {
              display: flex;
              justify-content: center;
-             margin-top: 5vh;
          }
          .card {
              user-select: none;
@@ -63,6 +62,8 @@
          function updateCorrectPercent() {
              const percent = totalRight / totalQuestions
              document.getElementById('correctPercentage').innerText = Math.round(percent * 100)
+
+             document.getElementById('done').innerText = totalQuestions
          }
 
          function right() {
@@ -116,12 +117,20 @@
              words = [...allWords]
              shuffleArray(words)
              loadRandomWord()
+
+             document.getElementById('total').innerText = words.length
          }
          load()
         </script>
     </head>
     <body>
-        <div id="correctPercentageHolder"><span id="correctPercentage">0</span>%</div>
+        <div id="correctPercentageHolder">
+            <span id="correctPercentage">0</span>%
+            <br/>
+            <span id="done">0</span>
+            /
+            <span id="total">0</span>
+        </div>
 
         <div class="card-holder" onclick="next()">
             <div class="card" onclick="onCardClick(event)">

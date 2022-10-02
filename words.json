@@ -1,6 +1,22 @@
 [
   {
     "def": [
+      "an act of criticizing; especially : a critical estimate or discussion"
+    ],
+    "name": "critique",
+    "date": "2022-10-01T04:00:00.000Z"
+  },
+  {
+    "def": [
+      "to inscribe or adorn with or as if with heraldic bearings or devices",
+      "to inscribe (something, such as heraldic bearings) on a surface",
+      "celebrate, extol"
+    ],
+    "name": "emblazon",
+    "date": "2022-10-02T04:00:00.000Z"
+  },
+  {
+    "def": [
       "a feeling of pique or resentment at some often fancied slight or insult",
       "shady branches : foliage",
       "shade, shadow"
@@ -70,15 +86,6 @@
     ],
     "name": "facsimile",
     "date": "2022-09-09T04:00:00.000Z"
-  },
-  {
-    "def": [
-      "to remove utterly from recognition or memory",
-      "to remove from existence : destroy utterly all trace, indication, or significance of",
-      "to cause (something, such as a bodily part, a scar, or a duct conveying body fluid) to disappear or collapse : remove"
-    ],
-    "name": "obliterate",
-    "date": "2022-09-10T04:00:00.000Z"
   },
   {
     "def": [
@@ -227,11 +234,12 @@
   },
   {
     "def": [
-      "snobbish",
-      "impressively or ostentatiously fancy or stylish : fashionable, posh"
+      "to induce someone to convert to one's faith",
+      "to recruit someone to join one's party, institution, or cause",
+      "to recruit or convert especially to a new faith, institution, or cause"
     ],
-    "name": "ritzy",
-    "date": "2022-09-29T04:00:00.000Z"
+    "name": "proselytize",
+    "date": "2022-09-30T04:00:00.000Z"
   },
   {
     "def": [
@@ -341,15 +349,6 @@
   },
   {
     "def": [
-      "a piece or fragment of a brittle substance; broadly : a small piece or part : scrap",
-      "shell, scale; especially : elytron",
-      "a fragment of a pottery vessel found on sites and in refuse deposits where pottery-making peoples have lived"
-    ],
-    "name": "shard",
-    "date": "2022-08-14T04:00:00.000Z"
-  },
-  {
-    "def": [
       "tending or intended to cause delay",
       "characterized by procrastination : tardy"
     ],
@@ -421,15 +420,6 @@
     ],
     "name": "abrogate",
     "date": "2022-08-23T04:00:00.000Z"
-  },
-  {
-    "def": [
-      "a usually minor malfunction; also : bug",
-      "a minor problem that causes a temporary setback : snag",
-      "a false or spurious electronic signal"
-    ],
-    "name": "glitch",
-    "date": "2022-08-24T04:00:00.000Z"
   },
   {
     "def": [
