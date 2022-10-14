@@ -1,6 +1,62 @@
 [
   {
     "def": [
+      "drooping or flagging from or as if from exhaustion : weak",
+      "sluggish in character or disposition : listless",
+      "lacking force or quickness of movement : slow"
+    ],
+    "name": "languid",
+    "date": "2022-10-03T04:00:00.000Z"
+  },
+  {
+    "def": [
+      "to present for acceptance : tender, offer",
+      "to offer to take part in a proffer session"
+    ],
+    "name": "proffer",
+    "date": "2022-10-07T04:00:00.000Z"
+  },
+  {
+    "def": [
+      "suggestive of an uncle especially in kindliness or geniality",
+      "of or relating to an uncle"
+    ],
+    "name": "avuncular",
+    "date": "2022-10-09T04:00:00.000Z"
+  },
+  {
+    "def": [
+      "buzz, drone"
+    ],
+    "name": "bombinate",
+    "date": "2022-10-10T04:00:00.000Z"
+  },
+  {
+    "def": [
+      "assisting or intended to assist memory; also : of or relating to mnemonics",
+      "of or relating to memory"
+    ],
+    "name": "mnemonic",
+    "date": "2022-10-11T04:00:00.000Z"
+  },
+  {
+    "def": [
+      "a disorganized or confused collection of things",
+      "a disorganized or disorderly crowd of people : mob",
+      "the lowest class of people"
+    ],
+    "name": "rabble",
+    "date": "2022-10-12T04:00:00.000Z"
+  },
+  {
+    "def": [
+      "marked by propriety and good taste : correct"
+    ],
+    "name": "decorous",
+    "date": "2022-10-13T04:00:00.000Z"
+  },
+  {
+    "def": [
       "a feeling of pique or resentment at some often fancied slight or insult",
       "shady branches : foliage",
       "shade, shadow"

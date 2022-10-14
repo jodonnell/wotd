@@ -34,7 +34,7 @@ const getWordData = async (word) => {
 }
 
 const removeEasyWords = (words) => {
-  const toRemove = ['shard', 'obliterate', 'ritzy', 'hearstring', 'glitch', 'defer', 'trivial', 'rancid', 'sensibility', 'wreak', 'demeanor', 'substantive', 'caucus', 'frolic', 'rash', 'charisma', 'jaunty', 'grandiose', 'heartstring', 'overwhelm', 'riposte', 'haywire', 'broadside', 'kerfuffle', 'emblazon', 'critique', 'brandish', 'brouhaha', 'Luddite']
+  const toRemove = ['shard', 'obliterate', 'ritzy', 'hearstring', 'glitch', 'defer', 'trivial', 'rancid', 'sensibility', 'wreak', 'demeanor', 'substantive', 'caucus', 'frolic', 'rash', 'charisma', 'jaunty', 'grandiose', 'heartstring', 'overwhelm', 'riposte', 'haywire', 'broadside', 'kerfuffle', 'emblazon', 'critique', 'brandish', 'brouhaha', 'Luddite', 'onus', 'atone', 'gargantuan', 'spiel']
   return words.filter((word) => {
     return !toRemove.includes(word.name)
   })
